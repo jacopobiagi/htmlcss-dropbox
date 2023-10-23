@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* css header */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 7vh;
+    border: 1px solid black;
+}
+
+header > div{
+    width: 50%;
+    display: flex;
+}
+
+.positionNav > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 15px;
+    height: 100%;
+}
+
+.rightHeader{
+    justify-content: end;
+}
+
+div > a{
+    font-size: small;
+    cursor: pointer;
+}
+
+.startButton{
+    width: 50px;
+}
+
+.startButton a{
+    width: 100%;
+    height: 45%;
+    background-color: rgb(0, 97, 255);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* css main */
+
+main{
+    width: 100%;
+    height: 65vh;
+    background-color: rgb(180, 208, 231);
+    padding: 5% 20% 0 20%;
+}
+
+h1{
+    font-size: xx-large;
+    font-weight: 800;
+}
