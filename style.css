@@ -391,3 +391,33 @@ h2{
     font-weight: bold;
     font-size: smaller;
 }
+
+/* footer css */
+
+footer{
+    height: 45vh;
+    background-color: black;
+    padding: 5% 15%;
+    color: white;
+}
+
+.lastDiv{
+    width: 100%;
+    height: 65%;
+}
+
+.lastDiv > div{
+    height: 100;
+    width: 20%;
+
+}
+
+.lastDiv h4{
+    margin-bottom: 20px;
+}
+
+.lastDiv span{
+    margin-bottom: 5px;
+    font-size: small;
+}
+
