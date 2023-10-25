@@ -8,6 +8,8 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+/* COMANDI GENERALI */
+
 .d-row, .positionNav > div{
     display: flex;
 }
@@ -20,6 +22,23 @@
 .d-center, .positionNav > div, .startNow{
     justify-content: center;
     align-items: center;
+}
+
+.total-width{
+    width: 100%;
+}
+
+.total-height{
+    height: 100%!important;
+}
+
+.total-square{
+    width: 100%;
+    height: 100%;
+}
+
+.font-size-small,a{
+    font-size: small;
 }
 
 /* css header */
@@ -35,7 +54,6 @@ header > div{
 
 .positionNav > div{
     margin: 0 15px;
-    height: 100%;
 }
 
 .rightHeader{
@@ -43,7 +61,6 @@ header > div{
 }
 
 div > a{
-    font-size: small;
     cursor: pointer;
 }
 
@@ -52,7 +69,6 @@ div > a{
 }
 
 .startButton a{
-    width: 100%;
     height: 45%;
     background-color: rgb(0, 97, 255);
     color: white;
@@ -61,7 +77,6 @@ div > a{
 /* css main */
 
 .blueBlock{
-    width: 100%;
     height: 65vh;
     background-color: rgb(180, 208, 231);
     padding: 5% 10% 0 10%;
@@ -84,7 +99,6 @@ h1{
 
 .paraFlex{
     width: 40%;
-    height: 100%;
 }
 
 .paraFlex p{
@@ -113,13 +127,8 @@ h1{
     width: 60%;
 }
 
-.imgFlex img{
-    width: 100%;
-}
-
 .whiteBlock{
-    width: 100%;
-    padding: 10% 20%;
+    padding: 10% 25%;
 }
 
 h2{
@@ -131,19 +140,8 @@ h2{
     font-size: small;
 }
 
-.price{
-    width: 100%;
-    height: 120vh;
-}
-
-.subscription{
-    width: 100%;
-    height: 87vh;
-}
-
 .subscription > div{
     width:33%;
-    height: 100%;
     border: 1px solid rgb(189, 189, 189);
     margin: 40px 10px 10px 10px;
     padding-bottom: 40px;
@@ -192,7 +190,6 @@ h2{
 }
 
 .prova{
-    width: 100%;
     height: 40px;
     margin-top: 30px
 }
@@ -204,6 +201,7 @@ h2{
 
 .puntiSalienti{
     margin-top: 50px;
+    margin-bottom: 90px;
 }
 
 .elencoPunti > div{
@@ -218,7 +216,6 @@ h2{
 }
 
 .office{
-    width: 100%;
     height: 23vh;
     border: 1px solid rgb(189, 189, 189);
     margin-top: 60px; 
@@ -226,13 +223,11 @@ h2{
 
 .enterprise{
     justify-content: space-between;
-    width: 100%;
     height: 20%;
 }
 
 .startOffice{
     width: 30%;
-    height: 100%;
     font-size: small;
     margin: 0;
 }
@@ -245,19 +240,12 @@ h2{
 }
 
 .partner{
-    width: 100%;
     height: 55vh;
     margin-top: 100px;
 }
 
 .partnerPicture{
     width: 60%;
-    height: 100%;
-}
-
-.partnerPicture img{
-    width: 100%;
-    height: 100%;
 }
 
 .partnerDesc{
@@ -278,30 +266,17 @@ h2{
     margin-top: 30px;
 }
 
-.grid{
-    width: 100%;
-    height: 97vh;
-    border: 1px solid black;
-}
-
 .grid > div{
     height: 50%;
 }
 
 .grid > div > div{
     width: calc(100% / 3);
-    border: 1px solid black;
     padding: 10px;
 }
 
 .pngGrid{
     height: 50%;
-    width:100%;
-}
-
-.pngGrid img{
-    height: 100%;
-    width: 100%
 }
 
 .pngGrid p{
@@ -325,13 +300,11 @@ h2{
 }
 
 .colorBlock{
-    width: 100%;
     height: 50vh;
 }
 
 .colorBlock > div{
     width: calc(100% / 3);
-    height: 100%;
 }
 
 .icons > div{
@@ -386,7 +359,6 @@ h2{
 }
 
 .questions div {
-    width: 100%;
     justify-content: space-between;
     font-weight: bold;
     font-size: smaller;
@@ -402,7 +374,6 @@ footer{
 }
 
 .lastDiv{
-    width: 100%;
     height: 65%;
 }
 
